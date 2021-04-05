@@ -47,6 +47,12 @@ bindsym shift+Alt_R exec --no-startup-id $refresh_i3blocks
 bindsym XF86MonBrightnessUp exec light -A 20
 bindsym XF86MonBrightnessDown exec light -U 20
 
+# Media player controls
+bindsym XF86AudioPlay exec playerctl play-pause
+bindsym XF86AudioPause exec playerctl pause
+bindsym XF86AudioNext exec playerctl next
+bindsym XF86AudioPrev exec playerctl previous
+
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
