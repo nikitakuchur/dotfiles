@@ -23,7 +23,7 @@ for_window [tiling] border pixel 0
 gaps inner 12
 
 # Picom
-exec --no-startup-id picom --experimental-backends --backend glx
+exec_always --no-startup-id picom --experimental-backends --backend glx
 
 # Set Wallpaper
 exec_always --no-startup-id feh --bg-scale ~/.config/i3/wallpapers/forest.jpg
