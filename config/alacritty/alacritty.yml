@@ -4,12 +4,12 @@ env:
 colors:
   # Default colors
   primary:
-    background: '0x2E3440'
+    background: '0x292D38'
     foreground: '0xD8DEE9'
 
   # Normal colors
   normal:
-    black:   '0x2E3440'
+    black:   '0x292D38'
     red:     '0xBF616A'
     green:   '0xA3BE8C'
     yellow:  '0xEBCB8B'
@@ -20,7 +20,7 @@ colors:
 
   # Bright colors
   bright:
-    black:   '#4d566b' #'0x3B4252'
+    black:   '0x4D566B'
     red:     '0xBF616A'
     green:   '0xA3BE8C'
     yellow:  '0xEBCB8B'

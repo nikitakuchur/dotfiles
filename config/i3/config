@@ -195,14 +195,14 @@ bar {
     position bottom
 
     colors {
-	background #2E3440
-        statusline #E5E9F0
-        separator  #4C566A
+	background #292D38
+        statusline #ECEFF4
+        separator  #4D566B
 
 #                          border  backgr. text
         focused_workspace  #81A1C1 #81A1C1 #ECEFF4
-        active_workspace   #4C566A #4C566A #81A1C1
-        inactive_workspace #4C566A #4C566A #81A1C1
+        active_workspace   #4D566B #4D566B #81A1C1
+        inactive_workspace #4D566B #4D566B #81A1C1
         binding_mode       #BF616A #BF616A #ECEFF4
         urgent_workspace   #BF616A #BF616A #ECEFF4
     }
