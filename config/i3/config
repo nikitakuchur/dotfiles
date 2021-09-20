@@ -195,16 +195,16 @@ bar {
     position bottom
 
     colors {
-	background #1D1F21
-        statusline #FFFFFF
-        separator  #455766
+	background #2E3440
+        statusline #E5E9F0
+        separator  #4C566A
 
 #                          border  backgr. text
-        focused_workspace  #81A2BE #81A2BE #FFFFFF
-        active_workspace   #FF0000 #0000FF #FFFFFF
-        inactive_workspace #455766 #455766 #81A2BE
-        binding_mode       #D54E53 #D54E53 #FFFFFF
-        urgent_workspace   #D54E53 #D54E53 #FFFFFF
+        focused_workspace  #81A1C1 #81A1C1 #ECEFF4
+        active_workspace   #4C566A #4C566A #81A1C1
+        inactive_workspace #4C566A #4C566A #81A1C1
+        binding_mode       #BF616A #BF616A #ECEFF4
+        urgent_workspace   #BF616A #BF616A #ECEFF4
     }
 }
 
@@ -219,11 +219,11 @@ exec --no-startup-id cbatticon
 
 # Theme colors
 # class                   border  backgr. text    indic.   child_border
-  client.focused          #81A2BE #81A2BE #FFFFFF #455766
-  client.focused_inactive #455766 #455766 #81A2BE #000000
-  client.unfocused        #455766 #455766 #81A2BE #000000
-  client.urgent           #D54E53 #D54E53 #FFFFFF #000000
-  client.placeholder      #455766 #455766 #81A2BE #000000 
+  client.focused          #81A1C1 #81A1C1 #E5E9F0 #4C566A
+  client.focused_inactive #4C566A #4C566A #81A1C1 #4C566A
+  client.unfocused        #4C566A #4C566A #81A1C1 #4C566A
+  client.urgent           #BF616A #BF616A #3B4252 #4C566A
+  client.placeholder      #4C566A #4C566A #81A1C1 #4C566A
 
   client.background       #000000
 
