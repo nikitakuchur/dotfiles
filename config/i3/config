@@ -219,11 +219,11 @@ exec --no-startup-id cbatticon
 
 # Theme colors
 # class                   border  backgr. text    indic.   child_border
-  client.focused          #81A1C1 #81A1C1 #E5E9F0 #4C566A
-  client.focused_inactive #4C566A #4C566A #81A1C1 #4C566A
-  client.unfocused        #4C566A #4C566A #81A1C1 #4C566A
-  client.urgent           #BF616A #BF616A #3B4252 #4C566A
-  client.placeholder      #4C566A #4C566A #81A1C1 #4C566A
+  client.focused          #81A1C1 #81A1C1 #E5E9F0 #4D566B
+  client.focused_inactive #4D566B #4D566B #81A1C1 #4D566B
+  client.unfocused        #4D566B #4D566B #81A1C1 #4D566B
+  client.urgent           #BF616A #BF616A #3B4252 #4D566B
+  client.placeholder      #4D566B #4D566B #81A1C1 #4D566B
 
   client.background       #000000
 
