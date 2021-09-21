@@ -20,6 +20,3 @@ Place all files and directories from `config` into `~/.config`.
 - mc
 - nitrogen
 - google-chrome-stable
-
-Also I use my custom [theme](https://github.com/nikitakuchur/nordic-dark)
- for Midnight Commander.
