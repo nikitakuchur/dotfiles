@@ -2,7 +2,8 @@
 ![screenshot](https://raw.githubusercontent.com/nikitakuchur/i3-config/main/screenshot.png)
 
 ## Installation
-Place all files and directories from `config` into `~/.config`.
+1. Place all files and directories from `config` into `~/.config`.
+2. Copy an `oceanic-dark` skin for Midnigth Commander from `mc-skin` to `~/.local/share/mc/skins/`.
 
 ## Dependencies
 - i3-gaps
