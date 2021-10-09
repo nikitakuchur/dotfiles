@@ -117,8 +117,6 @@ base_color=
 alacritty=
 color_terminals=
 
-linux=
-
 [Panels]
 simple_swap=false
 show_mini_info=true
