@@ -1,8 +1,8 @@
 set $mod Mod4
 
 # Configure border style
-default_border pixel 1
-default_floating_border normal 1
+default_border pixel 0
+default_floating_border normal 2
 
 hide_edge_borders both
 
@@ -55,7 +55,7 @@ bindsym $mod+Shift+q kill
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
 # There also is i3-dmenu-desktop which only displays applications shipping a
 # .desktop file. It is a wrapper around dmenu, so you need that installed.
-bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
+bindsym $mod+d exec --no-startup-id i3-dmenu-desktop --dmenu="dmenu -nb '#1B2B34' -sf '#1B2B34' -sb '#5FB3B3' -nf '#ADB5C0' -i"
 
 # Start applications
 bindsym $mod+F1 exec --no-startup-id google-chrome-stable
@@ -103,7 +103,7 @@ bindsym $mod+w layout tabbed
 bindsym $mod+e layout toggle split
 
 # Toggle tiling / floating
-bindsym $mod+Shift+space floating toggle; [tiling] border pixel 1; [floating] border normal 1
+bindsym $mod+Shift+space floating toggle; [tiling] border pixel 0; [floating] border normal 2
 
 # Change focus between tiling / floating windows
 bindsym $mod+space focus mode_toggle
@@ -195,16 +195,16 @@ bar {
     position bottom
 
     colors {
-	background #292D38
-        statusline #ECEFF4
-        separator  #4D566B
+	background #1B2B34
+        statusline #ADB5C0
+        separator  #65737E
 
 #                          border  backgr. text
-        focused_workspace  #81A1C1 #81A1C1 #ECEFF4
-        active_workspace   #4D566B #4D566B #81A1C1
-        inactive_workspace #4D566B #4D566B #81A1C1
-        binding_mode       #BF616A #BF616A #ECEFF4
-        urgent_workspace   #BF616A #BF616A #ECEFF4
+        focused_workspace  #5FB3B3 #5FB3B3 #1B2B34
+        active_workspace   #5FB3B3 #405860 #ADB5C0
+        inactive_workspace #405860 #405860 #ADB5C0
+        binding_mode       #EC5F67 #EC5F67 #1B2B34
+        urgent_workspace   #EC5F67 #EC5F67 #1B2B34
     }
 }
 
@@ -212,18 +212,17 @@ bar {
 exec_always --no-startup-id setxkbmap "us,ru" -option "grp:alt_shift_toggle"
 
 # Autostart applications
-exec_always --no-startup-id picom --experimental-backends --backend glx
+exec_always --no-startup-id picom --experimental-backends
 exec --no-startup-id nitrogen --restore
 exec --no-startup-id nm-applet
-exec --no-startup-id cbatticon
 
 # Theme colors
 # class                   border  backgr. text    indic.   child_border
-  client.focused          #81A1C1 #81A1C1 #E5E9F0 #4D566B
-  client.focused_inactive #4D566B #4D566B #81A1C1 #4D566B
-  client.unfocused        #4D566B #4D566B #81A1C1 #4D566B
-  client.urgent           #BF616A #BF616A #3B4252 #4D566B
-  client.placeholder      #4D566B #4D566B #81A1C1 #4D566B
+  client.focused          #1B2B34 #1B2B34 #77A9B8 #65737E
+  client.focused_inactive #1B2B34 #1B2B34 #ADB5C0 #65737E
+  client.unfocused        #1B2B34 #1B2B34 #ADB5C0 #65737E
+  client.urgent           #EC5F67 #EC5F67 #1B2B34 #65737E
+  client.placeholder      #1B2B34 #1B2B34 #ADB5Co #65737E
 
   client.background       #000000
 

@@ -154,24 +154,24 @@
 [urgency_low]
     # IMPORTANT: colors have to be defined in quotation marks.
     # Otherwise the '#' and following  would be interpreted as a comment.
-    background = "#4D566B"
-    foreground = "#ECEFF4"
-    highlight = "#ECEFF4"
-    frame_color = "#ECEFF4"
+    background = "#314F61"
+    foreground = "#ADB5C0"
+    highlight = "#ADB5C0"
+    frame_color = "#ADB5C0"
     timeout = 5
  
 [urgency_normal]
-    background = "#4D566B"
-    foreground = "#ECEFF4"
-    highlight = "#ECEFF4"
-    frame_color = "#ECEFF4"
+    background = "#314F61"
+    foreground = "#ADB5C0"
+    highlight = "#ADB5C0"
+    frame_color = "#ADB5C0"
     timeout = 5
  
 [urgency_critical]
-    background = "#BF616A"
-    foreground = "#ECEFF4"
-    highlight = "#ECEFF4"
-    frame_color = "#ECEFF4"
+    background = "#EC5F67"
+    foreground = "#1B2B34"
+    highlight = "#1B2B34"
+    frame_color = "#1B2B34"
     timeout = 0
  
  
