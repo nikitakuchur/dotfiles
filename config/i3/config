@@ -60,6 +60,7 @@ bindsym $mod+d exec --no-startup-id i3-dmenu-desktop --dmenu="dmenu -nb '#1B2B34
 # Start applications
 bindsym $mod+F1 exec --no-startup-id google-chrome-stable
 bindsym $mod+F2 exec --no-startup-id alacritty -e 'mc'
+
 bindsym Print exec --no-startup-id i3-scrot
 bindsym $mod+Print --release exec --no-startup-id i3-scrot -w
 bindsym $mod+Shift+Print --release exec --no-startup-id i3-scrot -s
