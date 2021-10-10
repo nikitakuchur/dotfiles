@@ -1,6 +1,32 @@
 env:
     WINIT_X11_SCALE_FACTOR: '1.0'
 
+window:
+  padding:
+    x: 2
+    y: 2
+
+live_config_reload: true
+
+font:
+  normal:
+    family: JetBrainsMono Nerd Font
+    style: Regular
+
+  bold:
+    family: JetBrainsMono Nerd Font
+    style: Bold
+
+  italic:
+    family: JetBrainsMono Nerd Font
+    style: Italic
+
+  bold_italic:
+    family: JetBrainsMono Nerd Font
+    style: Bold Italic
+
+  size: 11
+
 # Colors (Oceanic Next)
 colors:
   # Default colors

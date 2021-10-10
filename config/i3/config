@@ -218,11 +218,11 @@ exec --no-startup-id nm-applet
 
 # Theme colors
 # class                   border  backgr. text    indic.   child_border
-  client.focused          #1B2B34 #1B2B34 #77A9B8 #65737E
+  client.focused          #29414F #29414F #77A9B8 #65737E
   client.focused_inactive #1B2B34 #1B2B34 #ADB5C0 #65737E
   client.unfocused        #1B2B34 #1B2B34 #ADB5C0 #65737E
   client.urgent           #EC5F67 #EC5F67 #1B2B34 #65737E
-  client.placeholder      #1B2B34 #1B2B34 #ADB5Co #65737E
+  client.placeholder      #1B2B34 #1B2B34 #ADB5C0 #65737E
 
   client.background       #000000
 
