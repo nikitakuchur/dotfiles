@@ -17,6 +17,8 @@
 - xbacklight
 - playerctl
 - alacritty
+- starship
+- nerd-fonts-jetbrains-mono
 - i3-scrot
 - mc
 - nitrogen
