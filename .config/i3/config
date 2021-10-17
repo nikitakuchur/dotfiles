@@ -196,7 +196,7 @@ bar {
     position bottom
 
     colors {
-	background #1B2B34
+        background #1B2B34
         statusline #ADB5C0
         separator  #65737E
 
@@ -220,10 +220,10 @@ exec --no-startup-id nm-applet
 # Theme colors
 # class                   border  backgr. text    indic.   child_border
   client.focused          #29414F #29414F #77A9B8 #65737E
-  client.focused_inactive #1B2B34 #1B2B34 #ADB5C0 #65737E
-  client.unfocused        #1B2B34 #1B2B34 #ADB5C0 #65737E
+  client.focused_inactive #142026 #142026 #ADB5C0 #65737E
+  client.unfocused        #142026 #142026 #ADB5C0 #65737E
   client.urgent           #EC5F67 #EC5F67 #1B2B34 #65737E
-  client.placeholder      #1B2B34 #1B2B34 #ADB5C0 #65737E
+  client.placeholder      #142026 #142026 #ADB5C0 #65737E
 
   client.background       #000000
 
@@ -231,4 +231,3 @@ exec --no-startup-id nm-applet
 gaps inner 14
 gaps outer -2
 smart_gaps on
-
