@@ -128,10 +128,8 @@
 
     corner_radius = 4
  
-[frame]
-    width = 0
-    color = "#000000"
- 
+    frame_width = 0
+
 [shortcuts]
     # shortcuts are specified as [modifier+][modifier+]...key
     # available modifiers are 'ctrl', 'mod1' (the alt-key), 'mod2', 'mod3'
