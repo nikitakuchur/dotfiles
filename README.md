@@ -2,7 +2,7 @@
 ![screenshot](https://raw.githubusercontent.com/nikitakuchur/i3-config/main/screenshot.png)
 
 ## Installation
-Place `.config` and `.local` directories into your home directory.
+Place files into your home directory.
 
 ## Dependencies
 - i3-gaps

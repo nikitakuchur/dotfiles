@@ -1,0 +1,16 @@
+:set number
+:set relativenumber
+set idearefactormode=keep
+set ideajoin
+
+let mapleader = " "
+
+" actions
+nmap <leader>h <action>(PreviousTab)
+nmap <leader>l <action>(NextTab)
+nmap <leader>q <action>(CloseEditor)
+
+nmap <leader>g <action>(Generate)
+nmap <leader>i <action>(ImplementMethods)
+nmap <leader>o <action>(OverrideMethods)
+nmap <leader>r <action>(RenameElement)
