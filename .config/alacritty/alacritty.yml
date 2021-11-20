@@ -1,5 +1,6 @@
 env:
     WINIT_X11_SCALE_FACTOR: '1.0'
+      #__NV_PRIME_RENDER_OFFLOAD: '1'
 
 window:
   padding:
@@ -7,6 +8,8 @@ window:
     y: 2
 
 live_config_reload: true
+
+background_opacity: 0.8
 
 font:
   normal:
@@ -55,3 +58,4 @@ colors:
     magenta: '0xc594c5'
     cyan:    '0x5fb3b3'
     white:   '0xadb5bf'
+
